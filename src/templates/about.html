@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+   <div id="banner-area" class="banner-area" style="background-image:url({% static 'img/gallery/5.jpg' %})">
+      <div class="banner-text">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="banner-heading">
+                     <h1 class="banner-title">About Us</h1>
+                     <ol class="breadcrumb">
+                        <li><a href="{% url 'home' %}">Home</a></li>
+						<li>About Us</li>
+                     </ol>
+                  </div>
+               </div><!-- Col end -->
+            </div><!-- Row end -->
+         </div><!-- Container end -->
+      </div><!-- Banner text end -->
+   </div><!-- Banner area end --> 	
+<!-- Section -->
+				<section class="md-section" id="id2" style="background-color:#fff;padding:60px 0;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 ">
+								<div class="mb-30">
+									
+									<!-- sec-title -->
+									<div class="sec-title sec-title__lg-title">
+										<h2 class="sec-title__title">About <span>Numans Enterprises</span></h2><span class="sec-title__divider"></span>
+									</div><!-- End / sec-title -->
+									
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br>
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p><br><br><a class="btn btn-primary btn-outline" href="#">More about us</a>
+								</div>
+							</div>
+							<div class="col-lg-6 ">
+								
+								<!-- about -->
+								<div class="about"><img src="{% static 'img/about/2.jpg' %}" alt=""/>
+									
+									<!-- quote-02 -->
+									<blockquote class="quote-02 about-quote">
+										<p class="quote-02__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet ut lacus a tincidunt. Quisque luctus nibh augue, non ultrices arcu molestie in. Integer finibus dolor lorem, tempor pretium lectus</p>
+										
+										<!-- authorbox -->
+										<div class="authorbox">
+											<div class="authorbox__avartar" style="background-image: url(https://unsplash.it/800);"><img src="https://unsplash.it/800" alt=""/></div>
+											<div class="authorbox__info">
+												<h5 class="authorbox__name">Maria Gutierrez</h5>
+												<p class="authorbox__work">Designer</p>
+											</div>
+										</div><!-- End / authorbox -->
+										
+									</blockquote><!-- End / quote-02 -->
+									
+								</div><!-- End / about -->
+								
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End / Section -->
+
+{% endblock content %}

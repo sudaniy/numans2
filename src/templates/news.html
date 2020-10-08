@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+   <div id="banner-area" class="banner-area" style="background-image:url({% static 'img/gallery/5.jpg' %})">
+      <div class="banner-text">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="banner-heading">
+                     <h1 class="banner-title">News & Updates</h1>
+                     <ol class="breadcrumb">
+                        <li><a href="{% url 'home' %}">Home</a></li>
+						<li>News & Updates</li>
+                     </ol>
+                  </div>
+               </div><!-- Col end -->
+            </div><!-- Row end -->
+         </div><!-- Container end -->
+      </div><!-- Banner text end -->
+   </div><!-- Banner area end --> 		
+	<section id="id5"" class="news">
+			<div class="container">
+			<!-- sec-title -->
+			<div class="sec-title sec-title__lg-title md-text-center">
+				<h2 class="sec-title__title">Latest News</h2><span class="sec-title__divider"></span>
+			</div><!-- End / sec-title -->
+				<!--/ Title row end -->
+
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="latest-post">
+							<div class="latest-post-media">
+								<a href="news-single.html" class="latest-post-img">
+									<img class="img-responsive" src="img/gallery/2.jpg" alt="img">
+								</a>
+							</div>
+							<div class="post-body">
+								<h4 class="post-title">
+									<a href="news-single.html">We Just Completes $17.6 million Medical Clinic in Mid-Missouri</a>
+								</h4>
+								<div class="latest-post-meta">
+									<span class="post-item-date">
+										<i class="fa fa-clock-o"></i> July 20, 2017
+									</span>
+								</div>
+							</div>
+						</div><!-- Latest post end -->
+					</div><!-- 1st post col end -->
+
+					<div class="col-md-4 col-xs-12">
+						<div class="latest-post">
+							<div class="latest-post-media">
+								<a href="news-single.html" class="latest-post-img">
+									<img class="img-responsive" src="img/gallery/2.jpg" alt="img">
+								</a>
+							</div>
+							<div class="post-body">
+								<h4 class="post-title">
+									<a href="news-single.html">Thandler Airport Water Reclamation Facility Expansion Project Named</a>
+								</h4>
+								<div class="latest-post-meta">
+									<span class="post-item-date">
+										<i class="fa fa-clock-o"></i> June 17, 2017
+									</span>
+								</div>
+							</div>
+						</div><!-- Latest post end -->
+					</div><!-- 2nd post col end -->
+
+					<div class="col-md-4 col-xs-12">
+						<div class="latest-post">
+							<div class="latest-post-media">
+								<a href="news-single.html" class="latest-post-img">
+									<img class="img-responsive" src="img/gallery/2.jpg" alt="img">
+								</a>
+							</div>
+							<div class="post-body">
+								<h4 class="post-title">
+									<a href="news-single.html">Silicon Bench and Cornike Begin Construction Solar Facilities</a>
+								</h4>
+								<div class="latest-post-meta">
+									<span class="post-item-date">
+										<i class="fa fa-clock-o"></i> Aug 13, 2017
+									</span>
+								</div>
+							</div>
+						</div><!-- Latest post end -->
+					</div><!-- 3rd post col end -->
+				</div>
+				<!--/ Content row end -->
+
+				<div class="general-btn text-center">
+					<a class="btn btn-primary" href="#">See All Posts</a>
+				</div>
+
+			</div>
+			<!--/ Container end -->
+		</section>
+		<!--/ News end -->
+
+{% endblock content %}
